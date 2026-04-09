@@ -1,0 +1,21 @@
+location:
+  repositories:
+    - /var/backups/borg-repo
+
+  source_directories:
+    - /home
+    - /etc
+
+storage:
+  encryption_passphrase: "your-passphrase"
+
+databases:
+  postgresql_databases:
+    - name: pg_demo
+  mysql_databases:
+    - name: mysql_demo
+
+retention:
+  keep_daily: 7
+  keep_weekly: 4
+  keep_monthly: 6
