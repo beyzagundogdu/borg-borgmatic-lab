@@ -22,6 +22,7 @@ Bu çalışma kapsamında aşağıdaki senaryolar uçtan uca uygulanmıştır:
 
 ### Mimari Diyagram (Architecture Diagram)
 
+```
 ┌──────────────────────────────────────────────────────────────┐
 │                      Kaynak Sistemler                        │
 │                                                              │
@@ -69,3 +70,4 @@ Bu çalışma kapsamında aşağıdaki senaryolar uçtan uca uygulanmıştır:
 │   ├── MySQL      → mysql / SOURCE                            │
 │   └── Dosya Sistemi → dosya/klasör geri yükleme              │
 └──────────────────────────────────────────────────────────────┘
+```
